@@ -1,0 +1,30 @@
+{
+  "name": "executorai-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cosmjs/amino": "^0.32.3",
+    "@cosmjs/proto-signing": "^0.32.3",
+    "@cosmjs/stargate": "^0.32.3",
+    "@netlify/functions": "^2.8.1",
+    "@solana/actions": "^1.1.1",
+    "@solana/web3.js": "^1.94.0",
+    "axios": "^1.7.2",
+    "bip39": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "netlify-lambda": "^2.0.16"
+  }
+}
